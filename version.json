@@ -1,5 +1,5 @@
 {
-  "min_version": "1.4",
-  "critical": false,
+  "min_version": "1.5",
+  "critical": true,
   "store_url": "https://play.google.com/store/apps/details?id=com.prismapex.relaxingaudiodeck"
 }
