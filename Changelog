@@ -1,6 +1,29 @@
 *** UPDATE VERSION NUMBERS IN SCRIPT AND GITHUB ***
 
-  
+2.1 (22/8/2026) Test
+1. Logo updated
+2. New user intro sequence
+3. Small changes for different resolutions
+
+2.0 (18/8/2026) Test
+1. Converted UI hold buttons to event-driven processing to stop passive frame polling
+2. Fixed graphic equaliser baseline positioning and reduced layout recalculations
+3. Prevented preset load overlapping and thread stalls during rapid switching
+4. Fixed variable scope shadowing and null-type evaluation errors on startup
+5. Lowered CPU thermal overhead and improved long-session runtime stability
+6. Aligned start/update labels for optional updates
+7. Restructured AdManager initialization
+8. Decoupled ad refresh cycles from track loading
+9. Implemented focus-state handling
+10. Prevented freeze caused by runtime crash during failed ad requests
+12. Preserved core refresh cooldown timers
+
+1.9 (17/8/2026) Test
+1. Fixed screen sleep and lock handling to prevent background app crashes
+2. Restored saved stay-awake user preferences automatically on startup
+3. Aligned the stay-awake button visual state with saved settings on launch
+4. Improved reliability of loading user preferences
+5. Improved reliability of stay-awake toggle and status notifications
 
 1.8 15/8/2026) Test
 1. Modified layout
